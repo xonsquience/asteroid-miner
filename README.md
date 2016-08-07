@@ -1,2 +1,16 @@
 # asteroid-reports
-asteroidal resource availability within specified dates and close-approach distances
+Asteroidal Resource Availability
+
+Inspired by [Ian Webster's Asterank](www.asterank.com), this project plots yearly asteroidal availability and market value of user-specified resources.
+
+Databases:
+http://ssd.jpl.nasa.gov/sbdb_query.cgi (all objects and attributes), and
+http://neo.jpl.nasa.gov/cgi-bin/neo_ca
+
+Due to assignment time constraints, I wrote AsteroidFinder.py to find asteroids of interest rather than learn and use Asterank's object-oriented framework.  AsteroidFinder.py produces A_A.csv, a table containing resource amounts and approach dates of each asteroid which has enough information for size and composition estimation.
+
+Until I get the RShiny app hosted, it can be viewed by downloading ui.R, server.R, A_A.csv, and executing it from within RStudio.
+
+Features to be added:
+- sliders for approach date and distance ranges
+- options for if and how to weight each approach
