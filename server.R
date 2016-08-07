@@ -1,12 +1,3 @@
-#
-# This is the server logic of a Shiny web application. You can run the 
-# application by clicking 'Run App' above.
-#
-# Find out more about building applications with Shiny here:
-# 
-#    http://shiny.rstudio.com/
-#
-
 library(shiny)
 
 A <- read.csv('A_A.csv', header = TRUE, stringsAsFactors = FALSE)
@@ -27,6 +18,7 @@ xy <- function(resources, mv) {
     }
   }
   
+  # table to be populated with data for plotting
   dt <- matrix(0, nrow = length(elements)/2, ncol = 35)
   
   rownames(dt) <- n
