@@ -26,12 +26,15 @@ shinyUI(fluidPage(
                                         "Water" = "Water 30"),
                          selected = "Nickel-Iron"),
       br(),
+      p("A_A.csv created for this demo contains asteroids having close approaches of <0.5 AU between 2016 and 2050."),
+      br(),
       p("For an asteroid having N close approaches: each approach is plotted with 
         weight 1/N, and its total mass or value is displayed if it appears in one of the top3 tables."),
       br(),
       strong("Features to be added:"),
       p("- sliders for approach date and distance ranges"),
-      p("- options for if and how to weight each approach")
+      p("- options for if and how to weight each approach"),
+      p("- display distance of each approach in table"),
     ),
     
     # Show plots
