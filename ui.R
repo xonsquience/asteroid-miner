@@ -1,12 +1,3 @@
-#
-# This is the user-interface definition of a Shiny web application. You can
-# run the application by clicking 'Run App' above.
-#
-# Find out more about building applications with Shiny here:
-# 
-#    http://shiny.rstudio.com/
-#
-
 library(shiny)
 
 # Define UI
@@ -41,8 +32,6 @@ shinyUI(fluidPage(
       strong("Features to be added:"),
       p("- sliders for approach date and distance ranges"),
       p("- options for if and how to weight each approach")
-      
-      # put asteroids of interest and their close-approach dates here, separated by blank lines
     ),
     
     # Show plots
