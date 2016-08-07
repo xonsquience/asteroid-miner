@@ -1,7 +1,7 @@
 # asteroid-reports
 Asteroidal Resource Availability
 
-Inspired by [Ian Webster's Asterank](https://github.com/typpo/asterank), this project plots yearly asteroidal availability and market value of user-specified resources.
+Inspired by [Ian Webster's Asterank](https://github.com/typpo/asterank), this project plots yearly availability and market value of user-specified resources.
 
 Databases:
 http://ssd.jpl.nasa.gov/sbdb_query.cgi (all objects and attributes), and
